@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="National-Vaccine-Information-Center-(NVIC)_20170625T020431.txt">
+    <annotation>
+        <mention id="EHOST_Instance_3425" />
+        <annotator id="01">Jingyue</annotator>
+        <span start="576" end="581" />
+        <spannedText>never</spannedText>
+        <creationDate>Thu Jan 13 15:22:22 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3425">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3426" />
+        <annotator id="01">Jingyue</annotator>
+        <span start="4129" end="4132" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 15:27:50 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3426">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3427" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4061" end="4063" />
+        <spannedText>No</spannedText>
+        <creationDate>Fri Jan 14 17:38:47 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3427">
+        <mentionClass id="NegCue">No</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3428" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4129" end="4132" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 14 17:38:51 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3428">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3429" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4647" end="4650" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 14 17:39:33 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3429">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3430" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4061" end="4063" />
+        <spannedText>No</spannedText>
+        <creationDate>Fri Jan 14 17:38:47 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3430">
+        <mentionClass id="NegCue">No</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3431" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4129" end="4132" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 14 17:38:51 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3431">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3432" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4647" end="4650" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 14 17:39:33 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3432">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_3433" />
+        <annotator id="01">Jingyue</annotator>
+        <span start="576" end="581" />
+        <spannedText>never</spannedText>
+        <creationDate>Thu Jan 13 15:22:22 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_3433">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_3434" />
+        <annotator id="01">Jingyue</annotator>
+        <span start="4129" end="4132" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 15:27:50 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_3434">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_3435" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4061" end="4063" />
+        <spannedText>No</spannedText>
+        <creationDate>Fri Jan 14 17:38:47 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_3435">
+        <mentionClass id="NegCue">No</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_3436" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4129" end="4132" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 14 17:38:51 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>MATCHES_DLETED</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_3436">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_3437" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4647" end="4650" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 14 17:39:33 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_3437">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_3438" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4061" end="4063" />
+        <spannedText>No</spannedText>
+        <creationDate>Fri Jan 14 17:38:47 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_3438">
+        <mentionClass id="NegCue">No</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_3439" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4129" end="4132" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 14 17:38:51 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>MATCHES_DLETED</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_3439">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_3440" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="4647" end="4650" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 14 17:39:33 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_3440">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0">
+            <Annotator>Jingyue</Annotator>
+            <Annotator>MichielvNederpelt</Annotator>
+            <Annotator>ADJUDICATION</Annotator>
+        </Adjudication_Selected_Annotators>
+        <Adjudication_Selected_Classes version="1.0">
+            <Class>NegCue</Class>
+        </Adjudication_Selected_Classes>
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
