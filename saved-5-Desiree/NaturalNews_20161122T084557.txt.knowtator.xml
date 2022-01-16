@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="NaturalNews_20161122T084557.txt">
+    <annotation>
+        <mention id="EHOST_Instance_249" />
+        <annotator id="eHOST_2010">Desiree</annotator>
+        <span start="170" end="173" />
+        <spannedText>non</spannedText>
+        <creationDate>Thu Jan 13 13:27:05 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_249">
+        <mentionClass id="NegCue">non</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_250" />
+        <annotator id="eHOST_2010">Desiree</annotator>
+        <span start="546" end="548" />
+        <spannedText>in</spannedText>
+        <creationDate>Thu Jan 13 13:27:24 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_250">
+        <mentionClass id="NegCue">in</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_251" />
+        <annotator id="eHOST_2010">Desiree</annotator>
+        <span start="725" end="728" />
+        <spannedText>n't</spannedText>
+        <creationDate>Thu Jan 13 13:27:37 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_251">
+        <mentionClass id="NegCue">n't</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_252" />
+        <annotator id="eHOST_2010">Desiree</annotator>
+        <span start="938" end="940" />
+        <spannedText>un</spannedText>
+        <creationDate>Thu Jan 13 13:27:53 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_252">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_253" />
+        <annotator id="eHOST_2010">Desiree</annotator>
+        <span start="2070" end="2073" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 13:28:40 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_253">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_254" />
+        <annotator id="eHOST_2010">Desiree</annotator>
+        <span start="2538" end="2541" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 13:29:09 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_254">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_255" />
+        <annotator id="eHOST_2010">Desiree</annotator>
+        <span start="2999" end="3002" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 13:29:28 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_255">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
