@@ -3,6 +3,7 @@ Project code for Text Mining Methods course - Vrije Universiteit, Amsterdam The 
 Directory created by Sharona Badloe, Desiree Gerritsen, Jingyue Zhang and Michiel van Nederpelt. All rights reservedto VU, Amsterdam**®**.
 
 **REQUIREMENTS**
+
 Python 3.6+ (recommended: Python 3.7)
 Downloads: 
 Spacy library: https://spacy.io/usage
@@ -11,6 +12,7 @@ add later
 
 
 **HOW TO RUN**
+
 to be added later
 
 
