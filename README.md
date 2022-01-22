@@ -6,7 +6,7 @@ Directory created by Sharona Badloe, Desiree Gerritsen, Jingyue Zhang and Michie
 
 Python 3.6+ (recommended: Python 3.7)
 Downloads: 
- Spacy library: https://spacy.io/usage
+- Spacy library: https://spacy.io/usage
 - NLTK library: https://www.nltk.org/_modules/nltk/downloader.html
 
 Modules:
