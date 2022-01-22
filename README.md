@@ -4,7 +4,7 @@ Directory created by Sharona Badloe, Desiree Gerritsen, Jingyue Zhang and Michie
 
 # Project Description:
 This project focusses on negation cue detection. A task where negation cues (e.g., words or affixes) are detected based on our own build classifier. 
-For more information about related works and our features, see the report.
+For more information about related work and our features, see the report.
 
 **REQUIREMENTS**
 
