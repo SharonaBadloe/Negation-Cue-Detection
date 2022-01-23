@@ -39,7 +39,7 @@ The following three files are outputted in the same directory as the script:
 
 feature_extraction.py: (runtime around 15 minutes)
 This script can be run in your preferred IDE, or from the terminal by typing 'python feature_extraction.py'.
-The following four files are outputted in the same directory as the script: 
+The following four files are outputted in the data directory: 
 
 - training data with added features in .csv format
 - development data with added features in .csv format
