@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="NaturalNews_20170606T044813.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1962" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="762" end="764" />
+        <spannedText>in</spannedText>
+        <creationDate>Fri Jan 14 16:47:13 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1962">
+        <mentionClass id="NegCue">in</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1963" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="995" end="998" />
+        <spannedText>mis</spannedText>
+        <creationDate>Fri Jan 14 16:47:26 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1963">
+        <mentionClass id="NegCue">mis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1964" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="1401" end="1404" />
+        <spannedText>dis</spannedText>
+        <creationDate>Fri Jan 14 16:47:51 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1964">
+        <mentionClass id="NegCue">dis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1965" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="2101" end="2103" />
+        <spannedText>un</spannedText>
+        <creationDate>Fri Jan 14 16:48:31 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1965">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1966" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="2207" end="2210" />
+        <spannedText>n't</spannedText>
+        <creationDate>Fri Jan 14 16:48:43 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1966">
+        <mentionClass id="NegCue">n't</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1967" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="2655" end="2658" />
+        <spannedText>n't</spannedText>
+        <creationDate>Fri Jan 14 16:49:12 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1967">
+        <mentionClass id="NegCue">n't</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1968" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="2897" end="2901" />
+        <spannedText>anti</spannedText>
+        <creationDate>Fri Jan 14 16:49:27 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1968">
+        <mentionClass id="NegCue">anti</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1969" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="2963" end="2966" />
+        <spannedText>n't</spannedText>
+        <creationDate>Fri Jan 14 16:49:34 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1969">
+        <mentionClass id="NegCue">n't</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1970" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="3186" end="3188" />
+        <spannedText>No</spannedText>
+        <creationDate>Fri Jan 14 16:49:52 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1970">
+        <mentionClass id="NegCue">No</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1971" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="5697" end="5700" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 14 16:52:10 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1971">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1972" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="6464" end="6467" />
+        <spannedText>n't</spannedText>
+        <creationDate>Fri Jan 14 16:52:50 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1972">
+        <mentionClass id="NegCue">n't</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1973" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="6909" end="6912" />
+        <spannedText>n't</spannedText>
+        <creationDate>Fri Jan 14 16:53:23 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1973">
+        <mentionClass id="NegCue">n't</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1974" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="9091" end="9093" />
+        <spannedText>un</spannedText>
+        <creationDate>Fri Jan 14 16:55:40 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1974">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1975" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="10523" end="10526" />
+        <spannedText>non</spannedText>
+        <creationDate>Fri Jan 14 16:57:06 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1975">
+        <mentionClass id="NegCue">non</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1976" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="10559" end="10562" />
+        <spannedText>non</spannedText>
+        <creationDate>Fri Jan 14 16:57:38 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1976">
+        <mentionClass id="NegCue">non</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1977" />
+        <annotator id="eHOST_2010">MichielvNederpelt</annotator>
+        <span start="10786" end="10789" />
+        <spannedText>non</spannedText>
+        <creationDate>Fri Jan 14 16:57:50 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1977">
+        <mentionClass id="NegCue">non</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
