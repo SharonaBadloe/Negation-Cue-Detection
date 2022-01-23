@@ -140,7 +140,7 @@ def add_features(inputfile):
             pos_cat_list.append("ADVB")
         elif tag == "NNS" or tag == "NNP" or tag =="NN":
             pos_cat_list.append("NN")
-        elif tag == "JJS" or tag == "JJR" ot tag == "JJ" or tag == "IN":
+        elif tag == "JJS" or tag == "JJR" or tag == "JJ" or tag == "IN":
             pos_cat_list.append("ADJ")
         #if anything else, not seen in trainingdata comes forward:
         else:
