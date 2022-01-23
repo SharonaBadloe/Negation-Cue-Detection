@@ -3,7 +3,7 @@ Project code for Text Mining Methods course - Vrije Universiteit, Amsterdam The 
 Directory created by Sharona Badloe, Desiree Gerritsen, Jingyue Zhang and Michiel van Nederpelt. 
 
 # Project Description:
-This project focusses on negation cue detection. A task where negation cues (e.g., words or affixes) are detected based on our own build classifier. 
+This project focusses on negation cue detection. A task where negation cues (e.g., words or affixes) are detected based on our own built classifier. 
 For more information about related work and our features, see the report.
 
 **REQUIREMENTS**
