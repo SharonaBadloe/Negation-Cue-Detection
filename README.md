@@ -24,8 +24,8 @@ Modules:
 **HOW TO RUN**
 
 The directory contains the following files/folders: 
-\annotations
-\data
+\ annotations 
+\ data
 README.md
 basic_statistics.py
 feature_extraction.py
