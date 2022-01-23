@@ -33,9 +33,9 @@ The directory contains the following files and folders:
 basic_statistics.py: (runtime around 2 minutes)
 This script can be run in your preferred IDE, or from the terminal by typing 'python basic_statistics.py'.
 The following three files are outputted in the same directory as the script:
-- Figure 1: The distribution of POS-tags for negations in the training and development dataset.
-- Figure 2: The distribution of POS-tags for the training dataset.
-- Figure 3: The distribution of POS-tags for the development dataset.
+- Figure 1: The distribution of POS-tags for negations in the training and development dataset
+- Figure 2: The distribution of POS-tags for the training dataset
+- Figure 3: The distribution of POS-tags for the development dataset
 
 feature_extraction.py: (runtime around 15 minutes)
 This script can be run in your preferred IDE, or from the terminal by typing 'python feature_extraction.py'.
