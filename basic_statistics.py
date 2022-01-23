@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 
 # inputfiles 
-inputfile_train = '../data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
-inputfile_dev = '../data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
+inputfile_train = 'data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
+inputfile_dev = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
 
 # outputfiles
 outputfile_train_pos = 'count_pos_train.png'
