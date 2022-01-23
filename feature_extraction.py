@@ -156,7 +156,7 @@ def add_features(inputfile):
         for item in doc:
             if item.is_punct == True:
                 punctuation_list.append("1")
-            if item.is_punct == False:
+            elif item.is_punct == False:
                 punctuation_list.append("0")
             else:
                 print("Error: check word processing")
@@ -164,7 +164,7 @@ def add_features(inputfile):
         d.append(punctuation_list)
     df['Punctuation_spacy'] = d
 
-    #other option for extracting punctuation marks without the use of spacy
+    #extracting punctuation marks without the use of spacy
 
     d = []
     punct_list = string.punctuation
