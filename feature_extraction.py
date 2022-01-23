@@ -7,8 +7,8 @@ nlp = spacy.load("en_core_web_sm")
 
 # input filepaths here
 
-inputfile_train = 'SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt'
-inputfile_dev = 'SEM-2012-SharedTask-CD-SCO-dev-simple.v2.txt'
+inputfile_train = '../Data/SEM-2012-SharedTask-CD-SCO-simple.v2/SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt'
+inputfile_dev = '../Data/SEM-2012-SharedTask-CD-SCO-simple.v2/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.txt'
 
 def add_features(inputfile):
     '''
@@ -145,7 +145,7 @@ def add_features(inputfile):
         #if anything else, not seen in trainingdata comes forward:
         else:
             pos_cat_list.append("OTH")
-    train_df['POS_classified'] = pos_cat_list
+    df['POS_classified'] = pos_cat_list
 
     #code for extracting punctuation marks
     d = []
@@ -162,7 +162,7 @@ def add_features(inputfile):
                 print("Error: check word processing")
                 break
         d.append(punctuation_list)
-    train_df['Punctuation_spacy'] = d
+    df['Punctuation_spacy'] = d
 
     #other option for extracting punctuation marks without the use of spacy
 
