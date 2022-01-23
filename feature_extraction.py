@@ -6,7 +6,6 @@ import string
 nlp = spacy.load("en_core_web_sm")
 
 # filepaths 
-
 inputfile_train = '../data/SEM-2012-SharedTask-CD-SCO-simple.v2/SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt'
 inputfile_dev = '../data/SEM-2012-SharedTask-CD-SCO-simple.v2/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.txt'
 
