@@ -24,11 +24,11 @@ Modules:
 **HOW TO RUN**
 
 The directory contains the following files and folders: 
-annotations
-data
-README.md
-basic_statistics.py
-feature_extraction.py
+- annotations
+- data
+- README.md
+- basic_statistics.py
+- feature_extraction.py
 
 basic_statistics.py: (runtime around 2 minutes)
 This script can be run in your preferred IDE, or from the terminal by typing 'python basic_statistics.py'.
