@@ -130,20 +130,21 @@ def add_features(inputfile):
 # code for classifying POS-tags
 pos_cat_list = []
 for tag in poslist:
-    if tag == "VERB" or tag == "AUX":
+    if tag == "VBZ" or tag == "VBP" or tag == "VBZ" or tag == "VBN" or tag == "VBG" or tag == "VB" or tag == "VBD" or tag == "MD":
         pos_cat_list.append("VB")
-    elif tag == "PRON":
+    elif tag == "PRP$" or tag =="PRP" or tag =="POS" or tag =="WP":
         pos_cat_list.append("PRO")
-    elif tag == "DET" or tag == "X" or tag == "NUM" or tag == "INTJ":
+    elif tag == "EX" or tag == "DT" or tag == "CD" or tag == "LS" or tag == "PDT" or tag == "WDT" or tag == "UH" or tag == "TO":
         pos_cat_list.append("OTH")
-    elif tag == "ADV" or tag == "ADP" or tag == "SCONJ" or tag == "PART":
+    elif tag == "RP" or tag == "RBS" or tag == "RBR" or tag == "CC" or tag == "RB" or tag == "WRB":
         pos_cat_list.append("ADVB")
-    elif tag == "PROPN" or tag == "NOUN":
+    elif tag == "NNS" or tag == "NNP" or tag =="NN":
         pos_cat_list.append("NN")
+    elif tag == "JJS" or tag == "JJR" ot tag == "JJ" or tag == "IN":
+        pos_cat_list.append("ADJ")
     #if anything else, not seen in trainingdata comes forward:
     else:
         pos_cat_list.append("OTH")
-
 train_df['POS_classified'] = pos_cat_list
 
     #code for extracting punctuation marks
