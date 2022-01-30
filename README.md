@@ -48,3 +48,9 @@ The following four files are outputted in the data directory:
 
 The .csv documents are for easy viewing of the features in a nice table format. 
 The .conll documents will be utilized in our classification process.
+
+SVM_feature_ablation_new.py: (runtime around 2 minutes)
+This script can be used to showcase the performance of the SVM classifier, for both all features and selected features.
+Make sure to store the data in the right folders, and check the path.
+The script will provide you with the evaluation metrics for both all features and selected features (which can easily be altered).
+
