@@ -29,6 +29,8 @@ The directory contains the following files and folders:
 - README.md
 - basic_statistics.py
 - feature_extraction.py
+- lexicon_baseline.py
+- SVM_feature_ablation_new.py
 
 basic_statistics.py: (runtime around 2 minutes)
 This script can be run in your preferred IDE, or from the terminal by typing 'python basic_statistics.py'.
@@ -48,6 +50,10 @@ The following four files are outputted in the data directory:
 
 The .csv documents are for easy viewing of the features in a nice table format. 
 The .conll documents will be utilized in our classification process.
+
+lexicon_baseline.py (runtime around 5 minutes)
+This file contains the code for creating a negation lexicon and using it in a rule-based system. It will output the length of the 
+negation lexicon, and two classification reports. One report for the dev set, and one for the training set.
 
 SVM_feature_ablation_new.py: (runtime around 2 minutes)
 This script can be used to showcase the performance of the SVM classifier, for both all features and selected features.
