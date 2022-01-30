@@ -51,6 +51,9 @@ The following four files are outputted in the data directory:
 The .csv documents are for easy viewing of the features in a nice table format. 
 The .conll documents will be utilized in our classification process.
 
+bioscope_feature_extraction.py: (runtime around 15 minutes)
+This script performs the same actions and outputs the same results as the feature_extraction.py file, but it contains some extra preprocessing steps specific to the bioscope data. 
+
 lexicon_baseline.py (runtime around 5 minutes)
 This file contains the code for creating a negation lexicon and using it in a rule-based system. It will output the length of the 
 negation lexicon, and two classification reports. One report for the dev set, and one for the training set.
