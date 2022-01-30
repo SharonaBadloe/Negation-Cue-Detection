@@ -145,8 +145,8 @@ print('length of negation cue lexicon:')
 print(len(neg_lexicon))
 
 # open training and dev data
-inputfile_train = 'SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt'
-inputfile_dev = 'SEM-2012-SharedTask-CD-SCO-dev-simple.v2.txt'
+inputfile_train = 'data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt'
+inputfile_dev = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.txt'
 
 # function calls for rule-based negation classifying system
 train_y_pred, train_y_true = rule_based_negation(inputfile_train, neg_lexicon)
