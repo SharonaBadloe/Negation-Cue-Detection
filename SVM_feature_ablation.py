@@ -13,11 +13,11 @@ import csv
 
 from sklearn import metrics
 
-trainfile = 'SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
-#testfile = 'SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
-testfile = 'bioscope.clinical.columns.features.conll'
-training_path_opt ='SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
-dev_path_opt = 'SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
+trainfile = 'data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
+#testfile = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
+testfile = 'data/bioscope.clinical.columns.features.conll'
+training_path_opt ='data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
+dev_path_opt = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
 
 def create_vectorizer_and_classifier(features, labels):
     '''
