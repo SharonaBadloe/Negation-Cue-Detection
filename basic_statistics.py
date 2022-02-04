@@ -8,9 +8,9 @@ inputfile_train = 'data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.c
 inputfile_dev = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
 
 # outputfiles
-outputfile_train_pos = 'count_pos_train.png'
-outputfile_dev_pos = 'count_pos_dev.png'
-outputfile_negation_pos = 'negation_pos_distribution.png'
+outputfile_train_pos = 'results/count_pos_train.png'
+outputfile_dev_pos = 'results/count_pos_dev.png'
+outputfile_negation_pos = 'results/negation_pos_distribution.png'
 
 
 def count_tokens_dataset(path_to_file):
@@ -41,9 +41,9 @@ def count_tokens_dataset(path_to_file):
 def plot_distribution_pos_alltokens(counter_object, output_file):
     """
     A function that plots the distribution of POS-tags for all tokens of a given dataset.
-    Input 1 = a variable that contains the counter output.
-    Input 2 = filename for the saved plot.
-    
+    :param counter_object: a variable that contains the counter output.
+    :param output_file: filename for the saved plot.
+    :returns: saved plots in results directory
     """
     
     pos_counter = counter_object
@@ -58,7 +58,6 @@ def count_negations_dataset(path_to_dev_file, path_to_train_file, output_file_na
     """
     A function that counts the distribution of POS-tags for the negations of a given datasets.
     It requires both files to contain a 'Label' column and a 'POS' column.
-    
     """  
     
     dev_data = pd.read_csv(path_to_dev_file, sep="\t")
