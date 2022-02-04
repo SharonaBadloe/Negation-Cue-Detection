@@ -30,7 +30,7 @@ The directory contains the following files and folders:
 - basic_statistics.py
 - feature_extraction.py
 - lexicon_baseline.py
-- SVM_feature_ablation_new.py
+- SVM_feature_ablation.py
 
 basic_statistics.py: (runtime around 2 minutes)
 This script can be run in your preferred IDE, or from the terminal by typing 'python basic_statistics.py'.
