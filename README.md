@@ -66,15 +66,12 @@ The following three files are outputted in the results directory:
 #
 
 **lexicon_baseline.py** (runtime around 5 minutes)
-This file contains the code for creating a negation lexicon and using it in a rule-based system. It will output the length of the 
-negation lexicon, and two classification reports. One report for the dev set, and one for the training set.
+This script can be run in your preferred IDE, or from the terminal by typing 'python lexicon_baseline.py'. This file contains the code for creating a negation lexicon and using it in a rule-based system for negation classification. It will output the length of the negation lexicon, and two classification reports. One report for the dev set, and one for the training set.
 
 #
 
 **SVM_feature_ablation.py:** (runtime around 2 minutes)
-This script can be used to showcase the performance of the SVM classifier, for both all features and selected features.
-Make sure to store the data in the right folders, and check the path.
-The script will provide you with the evaluation metrics for both all features and selected features (which can easily be altered).
+This script can be run in your preferred IDE, or from the terminal by typing 'python SVM_feature_ablation.py'. This script is used for an extensive ablation study on the SVM classifier. The script will output two classification reports, one for all features and one for a set of selected features. The set of features can easily be altered in order to implement ablation experiments. 
 
 #
 
