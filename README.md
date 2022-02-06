@@ -24,25 +24,17 @@ Modules:
 # How to run
 
 **The directory contains the following files and folders:**
+(All scripts and notebooks are supposed to be run in order of appearance on this list)
 - annotations
 - results
 - data
 - README.md
-- basic_statistics.py
 - feature_extraction.py
 - bioscope_feature_extraction.py
+- basic_statistics.py
 - lexicon_baseline.py
 - SVM_feature_ablation.py
 - error_analysis.ipynb
-
-#
-
-**basic_statistics.py:** (runtime around 2 minutes)
-This script can be run in your preferred IDE, or from the terminal by typing 'python basic_statistics.py'.
-The following three files are outputted in the results directory:
-- Figure 1: The distribution of POS-tags for negations in the training and development dataset (negation_pos_distribution.png)
-- Figure 2: The distribution of POS-tags for the training dataset (count_pos_train.png)
-- Figure 3: The distribution of POS-tags for the development dataset (count_pos_dev.png)
 
 #
 
@@ -61,6 +53,15 @@ The .csv documents are for easy viewing of the features in a nice table format. 
 
 **bioscope_feature_extraction.py:** (runtime around 15 minutes)
 This script performs the same actions and outputs the same results as the feature_extraction.py file, but it contains some extra preprocessing steps specific to the bioscope data. 
+
+#
+
+**basic_statistics.py:** (runtime around 2 minutes)
+This script can be run in your preferred IDE, or from the terminal by typing 'python basic_statistics.py'.
+The following three files are outputted in the results directory:
+- Figure 1: The distribution of POS-tags for negations in the training and development dataset (negation_pos_distribution.png)
+- Figure 2: The distribution of POS-tags for the training dataset (count_pos_train.png)
+- Figure 3: The distribution of POS-tags for the development dataset (count_pos_dev.png)
 
 #
 
