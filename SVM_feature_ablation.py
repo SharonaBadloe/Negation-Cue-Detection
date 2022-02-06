@@ -16,7 +16,7 @@ testfile = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
 #testfile = 'data/bioscope.clinical.columns.features.conll'
 training_path_opt ='data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
 dev_path_opt = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
-outputfile_error = 'error_df.csv'
+outputfile_error = 'results/pred_gold_dev.csv'
 
 def create_vectorizer_and_classifier(features, labels):
     '''
@@ -239,13 +239,7 @@ print(report)
 
 find_best_parameters(trainfile, selected_features)
 
-# save tokens, predictions and goldlabels from selected features SVM to use for error analysis
-
-t = [] # tokenlist
-for item in selected_feature_values:
-    token = item['token']
-    t.append(token)
-
-d = {'token': t, 'pred': selected_features_predictions, 'gold': selected_features_goldlabels}
-error_df = pd.DataFrame(d)
-error_df.to_csv(outputfile_error, sep='\t', header=True)
+# predictions and goldlabels from selected features SVM to use for error analysis
+d = {'pred': selected_features_predictions, 'gold': selected_features_goldlabels}
+error_table = pd.DataFrame(d)
+error_table.to_csv(outputfile_error, sep='\t', header=True, index=False)
