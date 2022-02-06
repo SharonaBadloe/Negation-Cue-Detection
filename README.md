@@ -52,8 +52,6 @@ The following two files are outputted in the data directory:
 
 - training data with added features in .conll format
 - development data with added features in .conll format
-
-The following two files are outputted in the results directory: 
 - training data with added features in .csv format
 - development data with added features in .csv format
 
