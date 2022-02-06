@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 #import nltk
 #nltk.download('averaged_perceptron_tagger')
 #from nltk.stem import WordNetLemmatizer
@@ -8,16 +7,16 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.svm import LinearSVC
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import classification_report
-import matplotlib.pyplot as plt
 import csv
 
 from sklearn import metrics
 
 trainfile = 'data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
-#testfile = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
-testfile = 'data/bioscope.clinical.columns.features.conll'
+testfile = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
+#testfile = 'data/bioscope.clinical.columns.features.conll'
 training_path_opt ='data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
 dev_path_opt = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
+outputfile_error = 'error_df.csv'
 
 def create_vectorizer_and_classifier(features, labels):
     '''
@@ -232,10 +231,16 @@ feature_values, labels = extract_features_and_gold_labels(trainfile, selected_fe
 #we can use the same function as before for creating the classifier and vectorizer
 svm_classifier, vectorizer = create_vectorizer_and_classifier(feature_values, labels)
 #when applying our model to new data, we need to use the same features
-predictions, goldlabels = get_predicted_and_gold_labels(testfile, vectorizer, svm_classifier, selected_features)
-print_confusion_matrix(predictions, goldlabels)
-print_precision_recall_fscore(predictions, goldlabels)
-report = classification_report(goldlabels,predictions,digits = 7, zero_division=0)
+selected_features_predictions, selected_features_goldlabels = get_predicted_and_gold_labels(testfile, vectorizer, svm_classifier, selected_features)
+print_confusion_matrix(selected_features_predictions, selected_features_goldlabels)
+print_precision_recall_fscore(selected_features_predictions, selected_features_goldlabels)
+report = classification_report(selected_features_goldlabels,selected_features_predictions,digits = 7, zero_division=0)
 print(report)
 
 find_best_parameters(trainfile, selected_features)
+
+# save selected features predictions and goldlabels to use for error analysis
+
+d = {'pred': selected_features_predictions, 'gold': selected_features_goldlabels}
+error_df = pd.DataFrame(d)
+error_df.to_csv(outputfile_error, sep='\t', header=True)
