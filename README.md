@@ -51,7 +51,7 @@ The following four files are outputted in the results directory:
 - training data with added features in .conll format
 - development data with added features in .conll format
 
-#The .csv documents are for easy viewing of the features in a nice table format. The .conll documents will be utilized in our classification process.
+The .csv documents are for easy viewing of the features in a nice table format. The .conll documents will be utilized in our classification process.
 
 **bioscope_feature_extraction.py:** (runtime around 15 minutes)
 This script performs the same actions and outputs the same results as the feature_extraction.py file, but it contains some extra preprocessing steps specific to the bioscope data. 
