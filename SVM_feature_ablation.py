@@ -16,7 +16,7 @@ testfile = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
 #testfile = 'data/bioscope.clinical.columns.features.conll'
 training_path_opt ='data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
 dev_path_opt = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
-outputfile_error = 'error_dev.csv'
+outputfile_error = 'error_df.csv'
 
 def create_vectorizer_and_classifier(features, labels):
     '''
@@ -227,9 +227,9 @@ print('confusion matrix and classification report for selected features:')
 #define which from the available features will be used (names must match key names of dictionary feature_to_index)
 selected_features = ['Token', 'Pre-token', 'Next-token', 'Pre-lemma', 'POS', 'Negated event', 'NegAffix', 'HasNegAffix']
 
-feature_values, labels = extract_features_and_gold_labels(trainfile, selected_features)
+selected_feature_values, selected_feature_labels = extract_features_and_gold_labels(trainfile, selected_features)
 #we can use the same function as before for creating the classifier and vectorizer
-svm_classifier, vectorizer = create_vectorizer_and_classifier(feature_values, labels)
+svm_classifier, vectorizer = create_vectorizer_and_classifier(selected_feature_values, selected_feature_labels)
 #when applying our model to new data, we need to use the same features
 selected_features_predictions, selected_features_goldlabels = get_predicted_and_gold_labels(testfile, vectorizer, svm_classifier, selected_features)
 print_confusion_matrix(selected_features_predictions, selected_features_goldlabels)
@@ -239,8 +239,13 @@ print(report)
 
 find_best_parameters(trainfile, selected_features)
 
-# save selected features predictions and goldlabels to use for error analysis
+# save tokens, predictions and goldlabels from selected features SVM to use for error analysis
 
-d = {'pred': selected_features_predictions, 'gold': selected_features_goldlabels}
+t = [] # tokenlist
+for item in selected_feature_values:
+    token = item['token']
+    t.append(token)
+
+d = {'token': t, 'pred': selected_features_predictions, 'gold': selected_features_goldlabels}
 error_df = pd.DataFrame(d)
 error_df.to_csv(outputfile_error, sep='\t', header=True)
