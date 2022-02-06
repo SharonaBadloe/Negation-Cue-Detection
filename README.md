@@ -22,7 +22,7 @@ Modules:
 - collections 
 
 # How to run
-All scripts and notebooks are supposed to be run in order of appearance on this list
+All scripts and notebooks are supposed to be run in order of appearance on this list.
 
 **The directory contains the following files and folders:**
 - annotations
