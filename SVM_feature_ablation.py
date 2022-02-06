@@ -16,7 +16,7 @@ testfile = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
 #testfile = 'data/bioscope.clinical.columns.features.conll'
 training_path_opt ='data/SEM-2012-SharedTask-CD-SCO-training-simple.v2.features.conll'
 dev_path_opt = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
-outputfile_error = 'error_df.csv'
+outputfile_error = 'error_dev.csv'
 
 def create_vectorizer_and_classifier(features, labels):
     '''
