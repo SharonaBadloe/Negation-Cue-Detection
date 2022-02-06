@@ -48,12 +48,14 @@ The following three files are outputted in the results directory:
 
 **feature_extraction.py:** (runtime around 15 minutes)
 This script can be run in your preferred IDE, or from the terminal by typing 'python feature_extraction.py'.
-The following four files are outputted in the results directory: 
+The following two files are outputted in the data directory: 
 
-- training data with added features in .csv format
-- development data with added features in .csv format
 - training data with added features in .conll format
 - development data with added features in .conll format
+
+The following two files are outputted in the results directory: 
+- training data with added features in .csv format
+- development data with added features in .csv format
 
 The .csv documents are for easy viewing of the features in a nice table format. The .conll documents will be utilized in our classification process.
 
