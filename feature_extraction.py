@@ -309,7 +309,7 @@ def add_features(inputfile):
     df.to_csv(outputfile, sep='\t', header=True, quotechar='|', index=False)
 
     outputfile2 = inputfile.replace('.txt', '.features.csv')
-    df.to_csv('results/'+outputfile2, sep='\t', header=True, quotechar='|', index=False)
+    df.to_csv(outputfile2, sep='\t', header=True, quotechar='|', index=False)
 
 # function calls
 add_features(inputfile_train)
