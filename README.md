@@ -35,6 +35,8 @@ Modules:
 - SVM_feature_ablation.py
 - error_analysis.ipynb
 
+#
+
 **basic_statistics.py:** (runtime around 2 minutes)
 This script can be run in your preferred IDE, or from the terminal by typing 'python basic_statistics.py'.
 The following three files are outputted in the results directory:
@@ -73,6 +75,7 @@ This script can be used to showcase the performance of the SVM classifier, for b
 Make sure to store the data in the right folders, and check the path.
 The script will provide you with the evaluation metrics for both all features and selected features (which can easily be altered).
 
+#
 
 **error_analysis.ipynb**
 This notebook extracts and displays some statistics on the amount of errors and correctly predicted tokens. It also extracts sentences, sentence numbers and labels for easy analysis. This notebook has been utilized in our partly manual, partly automated process of error analysis.
