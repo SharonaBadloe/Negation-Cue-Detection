@@ -21,7 +21,7 @@ Modules:
 - pandas
 - collections 
 
-# HOW TO RUN
+# How to run
 
 **The directory contains the following files and folders:**
 - annotations
